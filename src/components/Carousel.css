@@ -1,0 +1,125 @@
+#bannerCarousel {
+  margin-bottom: 115px;
+  position: relative;
+}
+
+#bannerCarousel .container {
+  position: relative;
+}
+
+#bannerCarousel .carousel-inner {
+  height: 95vh;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+.carousel-item h2 {
+  font-family: Ayer Poster;
+  font-size: 180px;
+  font-weight: 500;
+  line-height: 230px;
+  letter-spacing: 0em;
+  color: #fff;
+}
+
+.carousel-item .carousel-caption {
+  bottom: unset;
+  top: 15%;
+}
+.carousel-item .carousel-caption h3 {
+  font-family: Ayer Poster;
+  font-size: 80px;
+  /* font-weight: 500; */
+  line-height: 100px;
+  letter-spacing: 0em;
+  color: #fff;
+}
+
+
+.carousel-item .carousel-caption p {
+  font-family: Ubuntu;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+}
+
+.carousel-item .carousel-caption p span {
+  display: block;
+  color: var(--primary-color);
+  font-style: italic;
+}
+
+.carousel-widgets {
+  width: 100%;
+  position: absolute;
+  bottom: 25px;
+}
+
+.carousel-control {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+
+.carousel-control .carousel-control-prev,
+.carousel-control .carousel-control-next {
+  position: relative;
+  font-size: 28px;
+}
+
+.carousel-indicators {
+  margin: 0;
+  left: auto;
+}
+
+.carousel-indicators [data-bs-target] {
+  margin: 0;
+  text-indent: unset;
+  height: auto;
+  background: none;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.carousel-indicators [data-bs-target] span {
+  opacity: 0;
+}
+
+.carousel-indicators [data-bs-target].active span {
+  opacity: 1;
+}
+
+@media screen and (max-width: 992px) {
+  .carousel-item {
+    position: relative;
+    height: 95vh;
+  }
+
+  .carousel-item img {
+    /* position: absolute; */
+    /* width: fit-content; */
+    height: 100vh;
+    /* left: -300px; */
+  }
+
+  .carousel-item h2 {
+    font-size: 100px;
+    line-height: 119px;
+  }
+
+  .carousel-item .carousel-caption {
+    top: 15%;
+  }
+
+  .carousel-item .carousel-caption p {
+    font-size: 16px;
+    line-height: 18px;
+    max-width: 260px;
+    font-style: normal;
+    margin-inline: auto;
+    margin-bottom: 40px;
+  }
+}

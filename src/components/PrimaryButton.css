@@ -1,0 +1,15 @@
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: #1e1e1e;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-primary:focus {
+  background-color: var(--primary-color);
+  box-shadow: var(--primary-color);
+}

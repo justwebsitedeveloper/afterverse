@@ -1,0 +1,57 @@
+.info {
+    margin-bottom: 170px;
+}
+
+.info .description {
+  max-width: 420px;
+}
+
+.info .swiper-controls-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+
+.info .swiper-controls-container .swiper-controls {
+  width: 100px;
+  display: flex;
+  font-size: 40px;
+  justify-content: space-between;
+}
+
+.info .swiper-controls-container .swiper-controls svg {
+  cursor: pointer;
+}
+
+.info-card {
+  width: 400px;
+  min-height: 520px;
+  padding: 26px;
+  border: 1px solid rgba(139, 227, 225, 0.7);
+  margin-left: 10px;
+}
+
+.info-card h4 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  color: var(--primary-color);
+}
+
+.info-card .highlight {
+  font-style: italic;
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 992px) {
+  .info-card {
+    width: 98%;
+    margin-left: unset;
+  }
+
+  .info .swiper-controls-container {
+      margin-top: 50px;
+      justify-content: center;
+  }
+}

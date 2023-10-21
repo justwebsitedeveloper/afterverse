@@ -1,0 +1,49 @@
+@import url(./fonts/AyerPoster/stylesheet.css);
+@import url(./fonts/Ubuntu/stylesheet.css);
+
+:root {
+  --main-bg-color: #131d22;
+  --main-bg-black: #000000;
+  --primary-color: #74fac9;
+  --primary-heading-color: #a5a5a5;
+}
+body {
+  margin: 0;
+  font-family: Ubuntu;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-bg-color);
+  color: white;
+}
+
+#root {
+  position: relative;
+}
+
+.btn {
+  border-radius: 0;
+  width: fit-content;
+}
+
+h2 {
+  font-family: Ubuntu;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.5em;
+  color: var(--primary-heading-color);
+  margin-bottom: 7px;
+}
+
+h3 {
+  font-family: Ayer Poster;
+  font-size: 120px;
+  font-weight: 500;
+  line-height: 118px;
+  letter-spacing: 0em;
+  margin-bottom: 13px;
+}
+
+a:hover {
+  color: var(--primary-color);
+}

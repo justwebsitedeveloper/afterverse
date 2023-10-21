@@ -1,0 +1,59 @@
+.team {
+  margin-bottom: 170px;
+}
+
+.team h2 {
+  font-size: 16px;
+}
+
+.team p {
+  line-height: 28px;
+  max-width: 359px;
+}
+
+.team-list div {
+  position: relative;
+}
+
+.team-list div:nth-child(odd)::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 60%;
+  top: 28px;
+  right: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.team-list div:last-child::after {
+  content: none;
+}
+
+.team-list p {
+  max-width: 249px;
+  color: #c7c7c7;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.team-list img {
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .team-list div:nth-child(odd)::after {
+    content: unset;
+  }
+
+  .team p,
+  .team-list p {
+    max-width: initial;
+  }
+
+  .team-list {
+    margin-top: 25px;
+  }
+  .team-list .col-lg-6 {
+    margin-top: 20px;
+  }
+}

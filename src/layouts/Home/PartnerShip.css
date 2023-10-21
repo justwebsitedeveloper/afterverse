@@ -1,0 +1,42 @@
+.partnership {
+  margin-bottom: 200px;
+}
+
+.partnership_container {
+  justify-content: space-between;
+}
+.partnership_container h2 {
+  font-size: 16px;
+}
+.partnership_container p {
+  max-width: 456px;
+}
+
+.form-area {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 32px;
+}
+
+.form-control {
+  background-color: var(--main-bg-color);
+  border: 0.5px solid rgba(157, 157, 157, 0.4);
+  border-radius: 0;
+  cursor: pointer;
+}
+.form-control:hover {
+  border: 0.5px solid var(--primary-color);
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+@media screen and (max-width: 992px) {
+  .partnership h3 {
+    font-size: 80px;
+    line-height: 74px;
+  }
+}

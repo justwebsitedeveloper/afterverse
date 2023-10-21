@@ -1,0 +1,20 @@
+.news-ad-banner {
+  /* background-image: url("assets/News/Description/news2.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-block: 50px;
+}
+
+.news-ad-banner .banner-content {
+  max-width: 775px;
+}
+
+.news-ad-banner h3 {
+  font-size: 60px;
+  line-height: 71px;
+}
+
+.news-ad-banner p {
+  font-size: 16px;
+  line-height: 28px;
+}

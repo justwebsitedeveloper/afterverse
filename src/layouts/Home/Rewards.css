@@ -1,0 +1,57 @@
+.rewards {
+  position: relative;
+  background-color: var(--main-bg-black);
+  justify-content: space-between;
+  border-right: 10px solid #dea732;
+  margin-right: 0;
+  margin-bottom: 30px;
+  align-items: center;
+  height: 550px;
+  overflow-y: hidden;
+}
+
+.rewards .img-container img {
+  width: 1025px;
+  height: 1025px;
+  position: absolute;
+  top: -250px;
+  left: -300px;
+}
+
+.rewards h2 {
+  font-size: 16px;
+}
+
+.rewards p {
+  max-width: 354px;
+  line-height: 28px;
+}
+
+.rewards p span {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  .rewards {
+    border: none;
+    height: 100%;
+    padding: 50px 0;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .rewards .img-container img {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .rewards p {
+    max-width: max-content;
+  }
+}

@@ -1,0 +1,27 @@
+.ava-list-banner {
+  margin-bottom: 85px;
+}
+
+.ava-list-banner .heading {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.ava-list-banner p {
+  max-width: 660px;
+  margin-inline: auto;
+}
+
+@media screen and (max-width: 992px) {
+  .ava-list-banner .heading {
+    display: block;
+  }
+
+  .ava-list-banner .heading h3 {
+    font-size: 100px;
+    line-height: 95px;
+  }
+}

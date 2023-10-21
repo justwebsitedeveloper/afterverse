@@ -1,0 +1,15 @@
+.hero-banner {
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 0% right 0%;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .hero-banner {
+        height: 95vh;
+    }
+}

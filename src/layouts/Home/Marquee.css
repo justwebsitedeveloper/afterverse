@@ -1,0 +1,8 @@
+.marquee {
+  display: block;
+  background-color: var(--primary-color);
+  color: #407c66;
+  font-size: 19px;
+  line-height: 25px;
+  letter-spacing: 0.44em;
+}

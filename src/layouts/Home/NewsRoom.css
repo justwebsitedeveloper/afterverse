@@ -1,0 +1,45 @@
+.news-room {
+  margin-bottom: 180px;
+}
+
+.news-room .content {
+  text-align: center;
+}
+
+.news-room .content h2 {
+  font-size: 16px;
+}
+
+.news-room .content h3 {
+  line-height: 100px;
+}
+
+.news-room .swiper-controls-container {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.news-room .swiper-controls {
+  width: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-room .swiper-nav-left,
+.news-room .swiper-nav-right {
+  opacity: 0.5;
+}
+
+.news-room .swiper-nav-left:hover,
+.news-room .swiper-nav-right:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .news-room .content {
+    margin-bottom: 25px;
+  }
+}

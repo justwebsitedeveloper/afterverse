@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Ayer Poster';
+    src: url('AyerPoster-Medium.eot');
+    src: local('Ayer Poster Medium'), local('AyerPoster-Medium'),
+        url('AyerPoster-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AyerPoster-Medium.woff2') format('woff2'),
+        url('AyerPoster-Medium.woff') format('woff'),
+        url('AyerPoster-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ayer Poster';
+    src: url('AyerPoster-SemiBoldItalic.eot');
+    src: local('Ayer Poster SemiBold Italic'), local('AyerPoster-SemiBoldItalic'),
+        url('AyerPoster-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AyerPoster-SemiBoldItalic.woff2') format('woff2'),
+        url('AyerPoster-SemiBoldItalic.woff') format('woff'),
+        url('AyerPoster-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ayer Poster';
+    src: url('AyerPoster-RegularItalic.eot');
+    src: local('Ayer Poster Regular Italic'), local('AyerPoster-RegularItalic'),
+        url('AyerPoster-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('AyerPoster-RegularItalic.woff2') format('woff2'),
+        url('AyerPoster-RegularItalic.woff') format('woff'),
+        url('AyerPoster-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ayer Poster';
+    src: url('AyerPoster-Bold.eot');
+    src: local('Ayer Poster Bold'), local('AyerPoster-Bold'),
+        url('AyerPoster-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AyerPoster-Bold.woff2') format('woff2'),
+        url('AyerPoster-Bold.woff') format('woff'),
+        url('AyerPoster-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ayer Poster';
+    src: url('AyerPoster-SemiBold.eot');
+    src: local('Ayer Poster SemiBold'), local('AyerPoster-SemiBold'),
+        url('AyerPoster-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('AyerPoster-SemiBold.woff2') format('woff2'),
+        url('AyerPoster-SemiBold.woff') format('woff'),
+        url('AyerPoster-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ayer Poster';
+    src: url('AyerPoster-BlackItalic.eot');
+    src: local('Ayer Poster Black Italic'), local('AyerPoster-BlackItalic'),
+        url('AyerPoster-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('AyerPoster-BlackItalic.woff2') format('woff2'),
+        url('AyerPoster-BlackItalic.woff') format('woff'),
+        url('AyerPoster-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ayer Poster';
+    src: url('AyerPoster-MediumItalic.eot');
+    src: local('Ayer Poster Medium Italic'), local('AyerPoster-MediumItalic'),
+        url('AyerPoster-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('AyerPoster-MediumItalic.woff2') format('woff2'),
+        url('AyerPoster-MediumItalic.woff') format('woff'),
+        url('AyerPoster-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ayer Poster';
+    src: url('AyerPoster-Black.eot');
+    src: local('Ayer Poster Black'), local('AyerPoster-Black'),
+        url('AyerPoster-Black.eot?#iefix') format('embedded-opentype'),
+        url('AyerPoster-Black.woff2') format('woff2'),
+        url('AyerPoster-Black.woff') format('woff'),
+        url('AyerPoster-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ayer Poster';
+    src: url('AyerPoster-Regular.eot');
+    src: local('Ayer Poster Regular'), local('AyerPoster-Regular'),
+        url('AyerPoster-Regular.eot?#iefix') format('embedded-opentype'),
+        url('AyerPoster-Regular.woff2') format('woff2'),
+        url('AyerPoster-Regular.woff') format('woff'),
+        url('AyerPoster-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ayer Poster';
+    src: url('AyerPoster-BoldItalic.eot');
+    src: local('Ayer Poster Bold Italic'), local('AyerPoster-BoldItalic'),
+        url('AyerPoster-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AyerPoster-BoldItalic.woff2') format('woff2'),
+        url('AyerPoster-BoldItalic.woff') format('woff'),
+        url('AyerPoster-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+

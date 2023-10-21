@@ -1,0 +1,66 @@
+.logo-nav{
+  width: 50px;
+}
+.nav-bar-container {
+  position: relative;
+    /* z-index: 100000; */
+}
+
+.nav-bar-container nav {
+  position: absolute;
+  width: 100%;
+}
+
+.nav-space {
+  margin-block: 15px;
+}
+
+.nav-space .nav-link {
+  margin-inline: 30px;
+}
+
+.nav-link.active {
+  text-decoration: underline var(--primary-color);
+  text-underline-offset: 5px;
+}
+
+.nav-bar-container .navbar-dark .navbar-toggler {
+  border: none;
+}
+
+.nav-bar-container .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.side-nav-bg {
+  background-color: var(--main-bg-color);
+}
+
+.side-nav-bg .offcanvas-header {
+  padding: 0 1rem;
+  margin: 40px 0;
+}
+
+.side-nav-bg .nav-link {
+  color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.side-nav-bg .nav-link:last-child {
+  border-bottom: none;
+}
+
+.side-nav-bg .nav-link.active {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.side-nav-bg .sidenav-icons a {
+  margin-right: 40px;
+}
+
+.side-nav-bg .sidenav-icons img {
+  height: 25px;
+  width: 25px;
+}

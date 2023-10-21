@@ -1,0 +1,30 @@
+.wallets {
+  background-color: var(--main-bg-black);
+  padding-top: 90px;
+  padding-bottom: 110px;
+  margin-bottom: 130px;
+}
+
+.wallets h3 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.wallets .coins {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.wallets .coins img {
+    height: 45px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .wallets h3 {
+        text-align: left;
+    }
+    
+}

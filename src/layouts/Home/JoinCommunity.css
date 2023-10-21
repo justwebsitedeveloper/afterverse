@@ -1,0 +1,25 @@
+.community {
+  background-color: var(--main-bg-black);
+  padding: 70px 0;
+  text-align: center;
+  margin-bottom: 170px;
+}
+.community h2 {
+  font-size: 16px;
+}
+.community p {
+  max-width: 705px;
+  line-height: 28px;
+  margin: 0 auto;
+}
+
+.community-social img {
+  padding: 0px 30px;
+  padding-top: 56px;
+}
+
+@media screen and (max-width: 992px) {
+  .community {
+    text-align: left;
+  }
+}
